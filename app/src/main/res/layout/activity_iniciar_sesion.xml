@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".iniciar_sesion"
+    android:background="@drawable/fondo"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/icon_user"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="top|center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/vm2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Sesión"
+        android:textColor="@android:color/black"
+        android:textSize="35sp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inicia Sesión para continuar"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/gis"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo Electronico"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="16sp"
+        android:gravity=""
+        android:textStyle="bold"
+        android:textColor="@color/gis"/>
+
+    <EditText
+        android:id="@+id/txtEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:ems="10"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/black"
+        android:background="@drawable/rectangulo_gray"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="45dp"
+        android:textSize="16sp"
+        android:gravity=""
+        android:textStyle="bold"
+        android:textColor="@color/gis"/>
+
+    <EditText
+        android:id="@+id/txtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="@drawable/rectangulo_gray"
+        android:layout_marginRight="45dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnIniciarSesion"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/btn_login"
+        android:textColor="#D3D3D3"
+        android:textSize="20sp"
+        android:text="Iniciar Sesión"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/btn_recuperar_contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="100dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-black"
+        android:text="¿Olvidaste la contraseña?"
+        android:textColor="@color/gis"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/btn_registrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:clickable="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Registarse"
+        android:textColor="@color/gis"
+        android:textSize="15sp"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vision_mate"
+    android:orientation="vertical"
+    android:background="#315D69">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/baston" />
+
+            <ImageView
+                android:id="@+id/btnCerrarSesion5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/baseline_ic" />
+
+
+            <ImageView
+                android:id="@+id/btnRegresar5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/arrow_back" />
+
+            <TextView
+                android:id="@+id/txtUsuario"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="80dp"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="540dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangulo_white_completo" />
+
+        <TextView
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="VISION MATE"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="50dp"
+            android:hint="Codigo"
+            android:textColor="@color/black"
+            android:textSize="30dp" /> <!-- Cambiado a gris -->
+
+        <EditText
+            android:id="@+id/txtCodi"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="80dp"
+            android:background="@android:color/darker_gray"
+            android:inputType="text"
+            android:textColor="#D3D3D3"
+            android:textSize="30sp"/>
+
+        <ImageView
+            android:id="@+id/btnUpda1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="125dp"
+            android:background="@drawable/ic_edit" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGuardarCodigo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/btn_login"
+            android:textColor="#D3D3D3"
+            android:textSize="20sp"
+            android:text="Guardar"
+            android:layout_marginTop="200dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginRight="50dp"
+            android:hint="Bateria"
+            android:textColor="@color/black"
+            android:textSize="30dp" /> <!-- Cambiado a gris -->
+
+        <TextView
+            android:id="@+id/txtBateria"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/darker_gray"
+            android:hint=""
+            android:textColor="@color/black"
+            android:textSize="30dp" /> <!-- Cambiado a gris -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="50dp"
+            android:hint="Version"
+            android:textColor="@color/black"
+            android:textSize="30dp" /> <!-- Cambiado a gris -->
+
+        <TextView
+            android:id="@+id/txtVersion"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginRight="50dp"
+            android:background="@android:color/darker_gray"
+            android:hint=""
+            android:textColor="@color/black"
+            android:textSize="30dp" /> <!-- Cambiado a gris -->
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/btnHome5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/btnPerfil5"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_person" />
+    </FrameLayout>
+
+
+</LinearLayout>

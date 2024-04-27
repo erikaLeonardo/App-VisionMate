@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "726648341004",
+    "firebase_url": "https://nexianova-default-rtdb.firebaseio.com",
+    "project_id": "nexianova",
+    "storage_bucket": "nexianova.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726648341004:android:25ed8eab6dc04a17aca429",
+        "android_client_info": {
+          "package_name": "com.nexianova.visionmateapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcC4eVD1sibdzu8JLQj7lU_4f9yYRo-o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crear_cuenta"
+    android:orientation="vertical"
+    android:background="#315D69">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+        <ImageView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="626dp"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="100dp"
+            android:background="@drawable/rectangulo_white_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:text="Crear Cuenta"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" /> <!-- Centrar horizontalmente -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="50dp"
+            android:text="NOMBRE"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="190dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="text"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginRight="50dp"
+            android:text="CORREO ELECTRONICO"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="290dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="360dp"
+            android:layout_marginRight="50dp"
+            android:text="CONTRASEÑA"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="390dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="460dp"
+            android:layout_marginRight="50dp"
+            android:text="CONFIRMAR CONTRASEÑA"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtPassCon"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="490dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="textPassword"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrar"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/btn_login"
+            android:text="REGISTRARSE"
+            android:textColor="#D3D3D3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/regresarBTN"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:background="@drawable/arrow_back" />
+
+
+
+    </FrameLayout>
+
+</LinearLayout>

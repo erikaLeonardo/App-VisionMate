@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".informacion_familiar"
+    android:orientation="vertical"
+    android:background="#315D69">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/ic_person" />
+
+            <ImageView
+                android:id="@+id/btnCerrarSesion2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/baseline_ic" />
+
+
+            <ImageView
+                android:id="@+id/btnRegresar2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="start"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/arrow_back" />
+
+            <TextView
+                android:id="@+id/txtUsuario"
+                android:layout_width="207dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="55dp"
+                android:layout_marginBottom="5dp"
+                android:text=""
+                android:textColor="@android:color/white"
+                android:textSize="14sp"
+                android:textStyle="italic" />
+
+        </FrameLayout>
+
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="580dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/rectangulo_white_completo" />
+
+        <TextView
+            android:layout_width="257dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:text="INFORMACIÓN DEL FAMILIAR"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="50dp"
+            android:text="NOMBRE"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="text"/>
+
+        <ImageView
+            android:id="@+id/btnUpdate1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="158dp"
+            android:background="@drawable/ic_edit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="50dp"
+            android:text="EDAD"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtEdad"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="240dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            />
+
+        <ImageView
+            android:id="@+id/btnUpdate2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/ic_edit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="310dp"
+            android:layout_marginRight="50dp"
+            android:text="GENERO"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtGeneroF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="text"/>
+
+        <ImageView
+            android:id="@+id/btnUpdate3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="340dp"
+            android:background="@drawable/ic_edit" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="50dp"
+            android:text="TELEFONO"
+            android:textColor="#D3D3D3"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtTelefonoF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="430dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/rectangulo_gray"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:inputType="number"
+            />
+
+        <ImageView
+            android:id="@+id/btnUpdate4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="430dp"
+            android:background="@drawable/ic_edit" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRegistrarG"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="80dp"
+            android:background="@drawable/btn_login"
+            android:text="GUARDAR"
+            android:textColor="#D3D3D3"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/btnHome2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="start"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_home" />
+
+        <ImageView
+            android:id="@+id/btnPerfil2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginRight="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/ic_person" />
+    </FrameLayout>
+
+</LinearLayout>
